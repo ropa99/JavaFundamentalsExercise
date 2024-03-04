@@ -1,3 +1,5 @@
+package org.javafundamentals;
+
 public class StringExercise {
 
     public static void main(String[] args) {
@@ -50,6 +52,7 @@ public class StringExercise {
             System.out.println("charArr[" + i + "] = " + charArr[i]);
         }
 
+        System.out.println("*********************************");
         char[] charArr2 = {'J', 'a', 'v', 'a'};
         String str11 = String.copyValueOf(charArr2);
         System.out.println("Char array to string(): " + str11);
